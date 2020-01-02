@@ -6,7 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import {INavApp} from 'src/loader/TypedAppsLoader';
 import {DynamicalApplicationsLoader} from 'src/loader/DynamicalApplicationsLoader';
-import {useLocalizedResourcesFromContext} from 'src/graphic/mui-lib/hooks/useLanguage';
+import {useLocalizedResourcesFromContext} from 'src/mui-lib/hooks/useLanguage';
 import {AppLanguagesSelector} from 'src/graphic/components/AppLanguagesSelector';
 import {AppNavigator} from 'src/graphic/components/AppNavigator';
 import {URM} from 'src/graphic/resources/resources';
