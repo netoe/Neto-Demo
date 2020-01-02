@@ -8,4 +8,9 @@ export const R = {
 		'MuiLib',
 		'组件库',
 	),
+	noting: newApp(
+		'noting.png',
+		'Notes',
+		'笔记',
+	),
 };

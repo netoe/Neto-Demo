@@ -13,8 +13,9 @@ const newApp = newDynamicalApp;
 __webpack_public_path__ = URM.pathPrefixDynamicalImports;
 // @see https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import
 const appMuilibDemo = newApp(R.muilib, () => import(/* webpackChunkName: "AppMuiLibDemo" */'./AppMuiLibDemoHome'));
+const appNoting = newApp(R.noting, () => import(/* webpackChunkName: "AppNoting" */'./AppNoting'));
 
 export const DynamicalDemoApplications: IDynamicalApp[] = [
 	appMuilibDemo,
-	...DynamicalApplications,
+	appNoting,
 ];
