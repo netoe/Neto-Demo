@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import {INavApp} from 'src/loader/TypedAppsLoader';
 import {DynamicalApplicationsLoader} from 'src/loader/DynamicalApplicationsLoader';
 import {useLocalizedResourcesFromContext} from 'src/mui-lib/hooks/useLanguage';
-import {AppLanguagesSelector} from 'src/graphic/components/AppLanguagesSelector';
+import {AppLanguagesSelector} from 'src/mui-views/app/AppLanguagesSelector';
 import {AppNavigator} from 'src/graphic/components/AppNavigator';
 import {URM} from 'src/graphic/resources/resources';
 import {DynamicalDemoApplications} from '../apps/DynamicalApplicationsImporter';
