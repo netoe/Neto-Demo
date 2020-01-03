@@ -18,4 +18,5 @@ const appNoting = newApp(R.noting, () => import(/* webpackChunkName: "AppNoting"
 export const DynamicalDemoApplications: IDynamicalApp[] = [
 	appMuilibDemo,
 	appNoting,
+	...DynamicalApplications,
 ];
