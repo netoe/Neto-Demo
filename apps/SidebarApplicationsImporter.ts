@@ -1,11 +1,11 @@
 //
 
-import {ISidebarApp} from 'src/loader/TypedAppsLoader';
-import {newBuiltinApp, newDynamicalApp} from 'src/loader/DynamicalAppConstructor';
-import {SidebarApplications} from 'src/graphic/applications/DynamicalApplicationsImporter';
+import {ISidebarApp} from 'src/loader/TypedSidebarApps';
+import {newBuiltinApp, newDynamicalApp} from 'src/loader/SidebarAppsConstructor';
+import {SidebarApplications} from 'src/graphic/applications/SidebarApplicationsImporter';
 import {URM} from 'src/graphic/resources/resources';
 import {AppNoting} from './AppNoting';
-import {R} from './DynamicalApplications.resources';
+import {R} from './SidebarApplications.resources';
 
 const newApp = newDynamicalApp;
 const withApp = newBuiltinApp;
@@ -17,7 +17,7 @@ __webpack_public_path__ = URM.pathPrefixDynamicalImports;
 const appMuilibDemo = newApp(R.muilib, () => import(/* webpackChunkName: "AppMuiLibDemo" */'./AppMuiLibDemoHome'));
 const appNoting = withApp(R.noting, AppNoting);
 
-export const DynamicalDemoApplications: ISidebarApp[] = [
+export const DemoSidebarApplications: ISidebarApp[] = [
 	appMuilibDemo,
 	appNoting,
 	...SidebarApplications,
