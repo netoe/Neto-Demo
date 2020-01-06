@@ -2,5 +2,5 @@
 
 import {TestHome} from 'src/mui-lib/tests/TestHome';
 
-// const MuiLibHome = TestHome;
+const AppMuiLibDemoHome = TestHome;
 export default TestHome;
