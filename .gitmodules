@@ -1,3 +1,6 @@
+[submodule "Neto-Demos"]
+	path = Neto-Demos
+	url = https://github.com/netoll/Neto-Demos.git
 [submodule "Neto-Milestones"]
 	path = Neto-Milestones
 	url = https://github.com/netoll/Neto-Milestones.git
